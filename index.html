@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brzitva Mać</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/78e8c79e31.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__content--logo">
+        <img src="./img/logo.png" alt="Logo" />
+        <p>Brzitva Mać Barber Shop</p>
+      </div>
+      <div class="header__content--social">
+        <a href="#">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__content--text">
+        <h1>Never indulgent. Always on point.</h1>
+        <a href="#" class="button">Make an appointment</a>
+      </div>
+      <div class="hero__content--image">
+        <img src="./img/Barber2.png" alt="Picture of barber" />
+        <div class="overlay"></div>
+        <div class="overlay-right"></div>
+      </div>
+      <img src="./img/logo_hero.png" alt="Logo" />
+    </section>
+
+    <!-- Employees -->
+    <section class="employees">
+      <h2>Our Barbers</h2>
+      <div class="employees__content">
+        <div class="employees__content__card">
+          <div class="employees__content__card__image">
+            <img src="./img/person1.jpg" alt="" />
+          </div>
+          <h3>Markus</h3>
+          <p>Specialized in fades and beards.</p>
+        </div>
+        <div class="employees__content__card">
+          <div class="employees__content__card__image">
+            <img src="./img/person2.jpg" alt="" />
+          </div>
+          <h3>Shandra</h3>
+          <p>Specialized in long hair cuts and styling.</p>
+        </div>
+        <div class="employees__content__card">
+          <div class="employees__content__card__image">
+            <img src="./img/person3.jpg" alt="" />
+          </div>
+          <h3>Lauren</h3>
+          <p>Specialized in all types of fades.</p>
+        </div>
+        <div class="employees__content__card">
+          <div class="employees__content__card__image">
+            <img src="./img/person4.jpg" alt="" />
+          </div>
+          <h3>Tom</h3>
+          <p>Specialized in beards and styling.</p>
+        </div>
+        <div class="employees__content__card">
+          <div class="employees__content__card__image">
+            <img src="./img/person5.jpg" alt="" />
+          </div>
+          <h3>Tyler</h3>
+          <p>Specialized in fades and short cuts.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="location">
+      <h2>Location</h2>
+      <div class="location__content">
+        <div class="location__content__map" id="map"></div>
+        <div class="location__content__text">
+          <h3>
+            Independently owned and operated in the heart of Chinatown,
+            Vancouver
+          </h3>
+          <a href="#">Get Directions <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__content--schedule">
+        <h4>Working hours</h4>
+        <div class="footer__content--schedule__hours">
+          <p>Mon - Fri: 9:00 AM - 8:00 PM</p>
+          <p>Sat: 9:00 AM - 8:00 PM</p>
+          <p>Sun: 9:00 AM - 7:00 PM</p>
+        </div>
+      </div>
+      <div class=""></div>
+      <div class="footer__content--social">
+        <h4>Social</h4>
+        <div class="footer__content--social__icons">
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

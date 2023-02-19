@@ -1,0 +1,42 @@
+.header {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+  border-bottom: solid #36383a 5px;
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 15rem;
+    padding: 4rem 4rem;
+  }
+  &__content {
+    &--logo {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      gap: 1rem;
+      & > img {
+        filter: invert(1);
+        height: 4rem;
+      }
+    }
+    &--social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      & > a {
+        color: #ff986e;
+        z-index: 4;
+        text-decoration: none;
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
