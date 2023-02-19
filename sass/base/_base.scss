@@ -16,6 +16,9 @@ html {
   @media only screen and (max-width: 768px) {
     font-size: calc(100vw / 768 * 10);
   }
+  @media only screen and (max-width: 480px) {
+    font-size: calc(100vw / 480 * 10);
+  }
 }
 
 body {

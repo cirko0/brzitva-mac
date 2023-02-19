@@ -14,6 +14,9 @@ html {
   @media only screen and (max-width: 768px) {
     html {
       font-size: calc(100vw / 768 * 10); } }
+  @media only screen and (max-width: 480px) {
+    html {
+      font-size: calc(100vw / 480 * 10); } }
 
 body {
   background-color: #202224;
@@ -32,6 +35,10 @@ body {
     .header {
       margin-bottom: 15rem;
       padding: 4rem 4rem; } }
+  @media only screen and (max-width: 480px) {
+    .header {
+      margin-bottom: 10rem;
+      padding: 2rem 0; } }
   .header__content--logo {
     color: white;
     text-transform: uppercase;
@@ -65,6 +72,9 @@ body {
   position: relative;
   padding: 0 15rem;
   margin-bottom: 25rem; }
+  @media only screen and (max-width: 480px) {
+    .hero {
+      padding: 0; } }
   .hero__content--text {
     align-self: center;
     justify-self: center;
@@ -123,6 +133,9 @@ body {
   @media only screen and (max-width: 768px) {
     .employees {
       padding: 0 4rem; } }
+  @media only screen and (max-width: 480px) {
+    .employees {
+      padding: 0; } }
   .employees > h2 {
     color: #48494d;
     font-size: 3.2rem;
@@ -184,6 +197,9 @@ body {
   @media only screen and (max-width: 768px) {
     .location {
       padding: 4rem; } }
+  @media only screen and (max-width: 480px) {
+    .location {
+      padding: 0; } }
   .location > h2 {
     color: #48494d;
     font-size: 3.2rem;
@@ -201,6 +217,9 @@ body {
     .location__content__map {
       overflow: hidden;
       height: 50rem; }
+      @media only screen and (max-width: 480px) {
+        .location__content__map {
+          height: 30rem; } }
     .location__content__text {
       align-self: center;
       justify-self: center; }
