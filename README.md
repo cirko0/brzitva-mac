@@ -9,7 +9,7 @@ Hey there! I'm excited to share my latest project with you. 😍 I used SCSS to 
 ## Install
 
 - `git clone <repository-url>` (this repository)
-- `cd Lightspeed`
+- `cd brzitva-mac`
 - `npm install`
 
 ## Build
