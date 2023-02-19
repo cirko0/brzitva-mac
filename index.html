@@ -23,6 +23,10 @@
       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
       crossorigin=""
     ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+    ></script>
     <script defer src="./script.js"></script>
   </head>
   <body>
@@ -46,7 +50,10 @@
     <section class="hero">
       <div class="hero__content--text">
         <h1>Never indulgent. Always on point.</h1>
-        <a href="#" class="button">Make an appointment</a>
+        <div class="button-container-2">
+          <span class="mas">Make an appointment</span>
+          <button type="button" name="Hover">Make an appointment</button>
+        </div>
       </div>
       <div class="hero__content--image">
         <img src="./img/Barber.webp" alt="Picture of barber" />
@@ -57,7 +64,7 @@
     </section>
 
     <!-- Employees -->
-    <section class="employees">
+    <section class="employees" data-observe="true">
       <h2>Our Barbers</h2>
       <div class="employees__content">
         <div class="employees__content__card">
@@ -99,7 +106,7 @@
     </section>
 
     <!-- Location -->
-    <section class="location">
+    <section class="location" data-observe="true">
       <h2>Location</h2>
       <div class="location__content">
         <div class="location__content__map" id="map"></div>
